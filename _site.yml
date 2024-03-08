@@ -1,0 +1,155 @@
+name: "Rodeo"
+output_dir: "."
+navbar:
+  title: "Hoja Geológica 3169-I Rodeo"
+  left:
+    - text: "Caratula"
+      icon: fa-home
+      href: index.html
+    - text: "Resumen"
+      href: resumen.html  
+    - text: "Memoria"
+      icon: fa-gear
+      menu:
+        - text: "Fm. San Ignacio y Agua Negra"
+          href: etiqueta_1.html
+          
+        - text: "Fm. Granitoides Tocota"
+          href: etiqueta_2.html
+          
+        - text: "Granitoide los Patos"
+          href: etiqueta_3.html
+          
+        - text: "Grupo Choiyoi"
+          href: etiqueta_4.html
+          
+        - text: "Formación Castaño"
+          href: etiqueta_4a.html
+          
+        - text: "Formación Las Chilcas"
+          href: etiqueta_4b.html
+          
+        - text: "Formación Las Pircas"
+          href: etiqueta_4c.html
+          
+        - text: "Intrusivos Riolíticos"
+          href: etiqueta_4d.html
+          
+        - text: "Granodioríta Romo"
+          href: etiqueta_5.html
+          
+        - text: "Granito Concota"
+          href: etiqueta_6.html
+          
+        - text: "Granito Chita"
+          href: etiqueta_7a.html
+          
+        - text: "Granito Agua Negra"
+          href: etiqueta_7b.html
+          
+        - text: "Granito Agua Blanca"
+          href: etiqueta_7c.html
+          
+        - text: "Granito San Francisco"
+          href: etiqueta_7d.html
+          
+        - text: "Granodiorita de Las Vizcachas"
+          href: etiqueta_8.html
+          
+        - text: "Formación Doña Ana"
+          href: etiqueta_9.html
+          
+        - text: "Afloramientos Intrusivos terciarios Cordillera Frontal & Intrusivos terciarios Precordillera"
+          href: etiqueta_10.html
+          
+        - text: "Formación Cerro de Las Tórtolas"
+          href: etiqueta_11.html
+          
+        - text: "Grupo Melchor"
+          href: etiqueta_12.html
+          
+        - text: "Formación Vizcachas"
+          href: etiqueta_12a.html
+          
+        - text: "Grupo Melchor (A)"
+          href: etiqueta_13.html
+          
+        - text: "Grupo Melchor (B)"
+          href: etiqueta_14.html
+          
+        - text: "Grupo Olivares"
+          href: etiqueta_15.html 
+          
+        - text: "Formación La Puentecilla"
+          href: etiqueta_16.html
+          
+        - text: "Formación Tudcum"
+          href: etiqueta_17.html
+          
+        - text: "Depósitos aluviales modernos"
+          href: etiqueta_18.html
+          
+        - text: "Formación San Juan"
+          href: etiqueta_19.html
+          
+        - text: "Formación La Inveranda y Yerba Loca"
+          href: etiqueta_20.html
+          
+        - text: "Formación Yerba Loca"
+          href: etiqueta_20a.html
+          
+        - text: "Formación Corralitos"
+          href: etiqueta_21.html
+          
+        - text: "Formación Punilla"
+          href: etiqueta_21a.html
+          
+        - text: "Formación Punta Negra"
+          href: etiqueta_21b.html
+          
+        - text: "Grupo Angualasto"
+          href: etiqueta_22.html
+          
+        - text: "Unidad Arcosas"
+          href: etiqueta_23.html
+          
+        - text: "Formación El Puntudo"
+          href: etiqueta_24.html
+          
+        - text: "Conglomerados y areniscas fluviales"
+          href: etiqueta_25.html
+          
+        - text: "Grupo Iglesia"
+          href: etiqueta_26.html
+          
+        - text: "Formación Lomas del Campanario"
+          href: etiqueta_26a.html
+          
+        - text: "Formación las Flores"
+          href: etiqueta_26b.html
+          
+        - text: "Formación Iglesias"
+          href: etiqueta_27.html
+          
+        - text: "Depósitos lacustres"
+          href: etiqueta_28.html
+          
+        - text: "Depósitos de barreal"
+          href: etiqueta_29.html
+  right:
+    - icon: fa-facebook-square
+      href: https://www.facebook.com/infosegemar/?locale=es_LA
+    - icon: fa-instagram
+      href: https://www.instagram.com/serviciogeologicoargentino/
+      
+      
+output:
+  html_document:
+    theme: readable
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    include:
+      after_body: footer.html
+    css: styles.css
+    
