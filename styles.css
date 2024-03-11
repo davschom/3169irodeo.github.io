@@ -1,0 +1,14 @@
+/* Need to adjust the navbar behaviour so the navbar doesn't wrap */
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 2;
+}
+.section {
+   padding-bottom: 2em;
+}
+
+.dropdown-menu{
+   max-height: 300px;
+   overflow: auto;
+}
